@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">VideosCartoon</string>
+    <string name="action_settings">Rate App</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="admob_app_id">ca-app-pub-3907844618776701~2602729993</string>
+    <string name="all_chanel_banner">ca-app-pub-4359007609570094/4470224986</string>
+    <string name="detail_chanel_banner">ca-app-pub-4359007609570094/7803019239</string>
+    <string name="contain_chanel_banner">ca-app-pub-4359007609570094/1844061646</string>
+    <string name="interstitial_contain_chanel">ca-app-pub-4359007609570094/8246116524</string>
+
+    <string name="key_api_youtube">AIzaSyDK7lIVK6qwga0NJHly3-Heocbpe4w7sqE</string>
+
+
+</resources>
