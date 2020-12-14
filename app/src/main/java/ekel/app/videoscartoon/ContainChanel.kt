@@ -1,9 +1,11 @@
 package ekel.app.videoscartoon
 
+import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.view.MenuItem
+import android.view.View
 import android.widget.Toast
-import androidx.appcompat.app.AppCompatActivity
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.InterstitialAd
 import com.google.android.youtube.player.*
@@ -36,13 +38,8 @@ class ContainChanel : YouTubeBaseActivity() {
 
     private fun initialize(videoId: String){
 //        var youtubeFragment = supportFragmentManager.findFragmentById(R.id.video_contain) as YouTubePlayerSupportFragment
-
         video_contain.initialize(getString(R.string.key_api_youtube), object : YouTubePlayer.OnInitializedListener{
-            override fun onInitializationSuccess(
-                p0: YouTubePlayer.Provider?,
-                p1: YouTubePlayer?,
-                p2: Boolean
-            ) {
+            override fun onInitializationSuccess(p0: YouTubePlayer.Provider?, p1: YouTubePlayer?, p2: Boolean) {
 //                if(p1 == null ) return
 //                if(p2){
 //                    p1.play()
@@ -55,11 +52,17 @@ class ContainChanel : YouTubeBaseActivity() {
 
             }
 
-            override fun onInitializationFailure(
-                p0: YouTubePlayer.Provider?,
-                p1: YouTubeInitializationResult?
-            ) {
-               Toast.makeText(this@ContainChanel,"Something Erorr Video", Toast.LENGTH_SHORT).show()
+            override fun onInitializationFailure(p0: YouTubePlayer.Provider?, p1: YouTubeInitializationResult?) {
+                Log.i("YouTube faillure", "Provider "+p0.toString()+" YouTubeInitializationResult "+p1!!.toString())
+                // TODO Auto-generated method stub
+               Toast.makeText(this@ContainChanel,"Tunggu Sesaat Lagi ... ", Toast.LENGTH_SHORT).show()
+                try {
+                    var intent = YouTubeStandalonePlayer.createVideoIntent(this@ContainChanel, getString(R.string.key_api_youtube), getYoutubeFromUrl(id_url!!)!!)
+                    startActivity(intent);
+                    finish(); //to exit current Activity in which YouTubeFragment is not working
+                } catch (e: Exception) {
+                    e.printStackTrace()
+                }
             }
 
         })
