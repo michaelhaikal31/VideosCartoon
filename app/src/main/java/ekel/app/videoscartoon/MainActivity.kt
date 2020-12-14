@@ -18,6 +18,7 @@ import com.pmui.apps.api.ApiHelper
 import com.pmui.apps.api.callback.ApiCallHelper
 import com.pmui.apps.api.callback.ApiCallback
 import com.pmui.apps.api.service.ApiService
+import ekel.app.videoscartoon.NetworkUtils.showNetworkAlertDialog
 import ekel.app.videoscartoon.adapter.AllChanelAdapter
 import ekel.app.videoscartoon.model.mAllChanel
 import kotlinx.android.synthetic.main.activity_main.*
@@ -39,7 +40,7 @@ class MainActivity : AppCompatActivity() {
         getAllChanel()
     }
     private fun getAllChanel() {
-        if (!NetworkUtils.isInternetAvailable(this)) return
+        if (!NetworkUtils.isInternetAvailable(this)) return showNetworkAlertDialog(this)
 
         MyProgressbar.showProgress(this)
         val observable = ApiHelper

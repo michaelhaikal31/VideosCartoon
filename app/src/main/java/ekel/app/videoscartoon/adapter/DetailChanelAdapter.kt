@@ -15,6 +15,7 @@ import androidx.recyclerview.widget.RecyclerView
 
 import com.squareup.picasso.Picasso
 import ekel.app.videoscartoon.ContainChanel
+import ekel.app.videoscartoon.NetworkUtils
 import ekel.app.videoscartoon.R
 import ekel.app.videoscartoon.model.AllChanel
 import ekel.app.videoscartoon.model.DetailChanel
@@ -47,6 +48,8 @@ class DetailChanelAdapter(var c: Context, var listData :List<DetailChanel>) : Re
         Picasso.with(c).load(chanel.image).fit().centerCrop().into(holder.gambar)
         holder.title.text = chanel.title
         holder.contain_view.setOnClickListener {
+            if (!NetworkUtils.isInternetAvailable(c)) return@setOnClickListener NetworkUtils.showNetworkAlertDialog(c)
+
             val intent = Intent(c, ContainChanel::class.java)
             intent.putExtra("url", listData[position].url)
             intent.putExtra("title", listData[position].title)
