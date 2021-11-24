@@ -1,0 +1,122 @@
+{
+  "status": "sukses",
+  "message": "INI MASIH DATA TESTING",
+  "ProdApp": [
+        {
+          "image": "https://play-lh.googleusercontent.com/C3DQjbSx2cO4JlfAi3uInoRoktkWoFJiu9pDzl3uRlEVr1KJvQDuQaXeIJBtj92wjHVW=s180-rw",
+          "title": "eKAS",
+          "url": "https://play.google.com/store/apps/details?id=ekel.app.kas"
+        },
+     {
+          "image": "https://matasekolah.site/icons/Icon-512.png",
+          "title": "Hris",
+          "url": "https://hris.matasekolah.site"
+        },
+        {
+          "image": "https://matasekolah.site/icons/Icon-512.png",
+          "title": "MataS",
+          "url": "https://matas.matasekolah.site/"
+        },
+     {
+          "image": "https://play-lh.googleusercontent.com/DvAj2qIyHBZYwv5a__4xDM-6EPgaqPjr1fPrj3Kx8BJch6F9pTwgLuP92ovRO8WLtWw=s180-rw",
+          "title": "Nota-POS",
+          "url": "https://play.google.com/store/apps/details?id=com.pmui.nota"
+        }
+  
+        
+      ],
+  "AboutMe": [
+      {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/598px-WhatsApp.svg.png",
+          "title": "My WhatApp",
+          "url": "https://wa.me/6287725989815"
+        },
+    {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/102px-Facebook_f_logo_%282019%29.svg.png",
+          "title": "My facebook",
+          "url": "https://play.famobi.com/moto-x3m-pool-party"
+        },
+     {
+          "image": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+          "title": "My Github",
+          "url": "https://github.com/michaelhaikal31"
+        },
+        {
+          "image": "https://dist.neo4j.com/wp-content/uploads/20180720064210/belogo-social-posts-default.png",
+          "title": "My Behance",
+          "url": "https://www.behance.net/haikal-ekel"
+        },
+        {
+          "image": "https://media-exp1.licdn.com/dms/image/C4D0BAQGyOWvr4W0Pow/company-logo_200_200/0/1590003577120?e=2159024400&v=beta&t=CtsDFVp0TAdwyg73A8F82MohzKpAQy-pUGA13atPG6A",
+          "title": "My Linkedin",
+          "url": "https://www.linkedin.com/in/fathurrohman-haikal-1a4595116/"
+        },
+     {
+          "image": "https://cdn.mos.cms.futurecdn.net/xJGh6cXvC69an86AdrLD98.jpg",
+          "title": "My Medium",
+          "url": "https://medium.com/@haikalfathurr"
+        }
+       
+        
+      ],
+  "Games":[
+    {
+          "image": "https://img.cdn.famobi.com/portal/html5games/images/tmp/MotoX3mPoolPartyTeaser.jpg?v=0.2-95b7d1ce",
+          "title": "Moto X3M",
+          "url": "https://play.famobi.com/moto-x3m-pool-party"
+        },
+    {
+          "image": "https://img.cdn.famobi.com/portal/html5games/images/tmp/ZooBoomTeaser.jpg?v=0.2-95b7d1ce",
+          "title": "Zoo Boom",
+          "url": "https://play.famobi.com/zoo-boom"
+        },
+     {
+          "image": "https://img.cdn.famobi.com/portal/html5games/images/tmp/PerfectPiano_Teaser.jpg?v=0.2-95b7d1ce",
+          "title": "Perfect Piano",
+          "url": "https://play.famobi.com/perfect-piano"
+        },
+     {
+          "image": "https://img.cdn.famobi.com/portal/html5games/images/tmp/3dFreeKickTeaser.jpg?v=0.2-95b7d1ce",
+          "title": "3d Free Kick",
+          "url": "https://play.famobi.com/3d-free-kick"
+        },
+     {
+          "image": "https://img.cdn.famobi.com/portal/html5games/images/tmp/TableTennis_WorldTour_Teaser.jpg?v=0.2-95b7d1ce",
+          "title": "Table Tennis",
+          "url": "https://play.famobi.com/table-tennis-world-tour"
+        },
+     {
+          "image": "https://img.cdn.famobi.com/portal/html5games/images/tmp/TotemiaCursedMarblesTeaser.jpg?v=0.2-95b7d1ce",
+          "title": "Totemia",
+          "url": "https://play.famobi.com/totemia-cursed-marbles"
+        },
+    {
+          "image": "https://img.cdn.famobi.com/portal/html5games/images/tmp/ElementBlocksTeaser.jpg?v=0.2-95b7d1ce",
+          "title": "Element-Blocks",
+          "url": "https://play.famobi.com/element-blocks"
+        },{
+          "image": "https://img.cdn.famobi.com/portal/html5games/images/tmp/PirateCardsTeaser.jpg?v=0.2-95b7d1ce",
+          "title": "Pirate-Cards",
+          "url": "https://play.famobi.com/pirate-cards"
+        },{
+          "image": "https://img.cdn.famobi.com/portal/html5games/images/tmp/8BallBilliardsClassicTeaser.jpg?v=0.2-95b7d1ce",
+          "title": "8-Ball-Billiards",
+          "url": "https://play.famobi.com/8-ball-billiards-classic"
+        },
+    {
+          "image": "https://img.cdn.famobi.com/portal/html5games/images/tmp/EndlessTruckTeaser.jpg?v=0.2-95b7d1ce",
+          "title": "EndlessTruck",
+          "url": "https://play.famobi.com/endless-truck"
+        },
+    {
+          "image": "https://img.cdn.famobi.com/portal/html5games/images/tmp/ArcheryWorldTourTeaser.jpg?v=0.2-95b7d1ce",
+          "title": "ArcheryWorld",
+          "url": "https://play.famobi.com/archery-world-tour"
+        },
+    {
+          "image": "https://img.cdn.famobi.com/portal/html5games/images/tmp/GoldMineTeaser.jpg?v=0.2-95b7d1ce",
+          "title": "GoldMine",
+          "url": "https://play.famobi.com/gold-mine"
+        }
+  ]
+}
